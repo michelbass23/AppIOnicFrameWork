@@ -1,0 +1,59 @@
+<ion-content>
+    <div class="top-section ion-padding">
+    <div class="top-menu">
+      <ion-icon color="primary" name="menu"></ion-icon>
+      <ion-icon color="primary" name="alarm"></ion-icon>
+    </div>
+      <div class="title">
+        <h2>Covid19</h2>
+        <ion-select [interfaceOptions]="customActionSheetOptions" value="India"
+        interface="action-sheet" placeholder="Selecione um">
+          <ion-select-option value="India">India</ion-select-option>
+          <ion-select-option value="Brasil">Brasil</ion-select-option>
+          <ion-select-option value="Italia">Italia</ion-select-option>
+        </ion-select>
+      </div>
+        <div class="sub-title">
+          <h3>Você está sentindo dor?</h3>
+          <p>se você estiver sentindo dor de cabeça,febre alta,falta de paladar e olfato 
+            pode ser um sintoma da covid-19 ligue imediatamente para a SAMU 192.
+          </p>
+        </div>
+        <div class="action-buttons">
+          <ion-button  class="call">
+            <a href="tel:+192"></a>
+            <ion-icon name="call"></ion-icon>Ligue agora
+          </ion-button>
+          <ion-button color="primary" class="sms">
+            <ion-icon name="chatbubble"></ion-icon>Envie um sms
+          </ion-button>
+        </div>
+  </div>
+  <div class="middle-section ion-padding">
+    <h2 class="ion-text-center">Prevenção</h2>
+    <div class="content">
+      <ion-row>
+        <ion-col size="4">
+          <img src="/assets/distanciamento-300x200.jpg">
+          <p>Mantenha distancia</p>
+        </ion-col>
+        <ion-col size="4">
+          <img src="/assets/lavarasmaos.jpg">
+          <p>Lave bem as mãos</p>
+        </ion-col>
+        <ion-col size="4">
+          <img src="/assets/mascara.jpg">
+          <p>Use mascara sempre</p>
+        </ion-col>
+      </ion-row>
+    </div>
+  </div>
+  <div class="bottom-section ion-margin">
+    <img src="">
+  </div>
+      <div class="content">
+        <h3 class="ion-text-center">Faça você mesmo o teste</h3>
+        <p class="ion-text-center">Siga as nossas instruções e faça voce mesmo o seu teste.</p>
+      </div>
+      
+</ion-content>
